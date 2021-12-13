@@ -1,0 +1,66 @@
+body
+{
+    margin: 0px;
+}
+.main-container
+{
+    width: 100%;
+    min-width: 100vh;
+    background-image: linear-gradient(to left, #627845, #15180a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    width: 70%;
+    height: 30rem;
+    background-color: #fcff9f;
+    border-radius: 20px;
+    display: 20px;
+   display: flex;
+}
+.image-container
+{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.image-container img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.data-container
+{
+    width: 40%;
+    font-family: "fuzzy Bubbles", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-container
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+align-items: flex-end;
+padding-bottom: 3em;
+}
+.button-container button
+{
+    font-size: 1.2em;
+    background-color: black;
+    border: 0px;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button-container button :hover
+{
+    background-color: rgb(51,48, 48);
+}
